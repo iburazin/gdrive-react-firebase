@@ -21,7 +21,7 @@ export default function AddFolderButton({ currentFolder }) {
   function handleSubmit(e) {
     e.preventDefault();
 
-    if (currentFloder == null) return;
+    if (currentFolder == null) return;
 
     //create a folder in the database
     database.folders.add({
